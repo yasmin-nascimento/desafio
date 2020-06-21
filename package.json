@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test": "mocha"
   },
   "dependencies": {
     "vue": "^2.5.17"
@@ -15,9 +16,14 @@
     "@vue/cli-plugin-eslint": "^3.2.1",
     "@vue/cli-service": "^3.2.0",
     "babel-eslint": "^10.0.1",
+    "chai": "3.*",
+    "chai-http": "4.3.0",
+    "chai-webdriver": "*",
+    "mocha": "*",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "selenium-webdriver": "^2.42.0"
   },
   "eslintConfig": {
     "root": true,
